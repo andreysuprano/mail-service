@@ -4,6 +4,7 @@ const port = 3001;
 const router = express.Router();
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const cors = require('cors');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
